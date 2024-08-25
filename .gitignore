@@ -104,6 +104,7 @@ ENV/
 .mypy_cache/
 
 *.zip
+p1_navigation/Banana_Linux
 p2_continuous-control/Reacher_Linux
 p3_collab-compet/runs
 p3_collab-compet/Tennis_Linux
