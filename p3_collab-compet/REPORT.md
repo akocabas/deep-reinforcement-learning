@@ -52,6 +52,14 @@ The trained agents can be visualized by running the `Tennis_test.ipynb` notebook
 
 The project demonstrated the effectiveness of the MADDPG algorithm in training agents in a multi-agent environment.
 
+## Future Ideas
+
+- Centralized Critic: Implementing a centralized critic that takes into account the joint actions and states of all agents. This can improve learning by providing a more global view of the environment
+
+- Grid Search or Random Search: Systematically exploring different hyperparameter values for learning rates, batch sizes, discount factors, and other key parameters
+
+- Attention Mechanisms: Integrating attention mechanisms to allow agents to focus on the most relevant parts of the state space.
+
 ## References
 
 - Lowe, R., et al. "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments." Advances in Neural Information Processing Systems. 2017.
