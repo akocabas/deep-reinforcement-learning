@@ -34,8 +34,6 @@ This report describes the implementation and results of a Deep Deterministic Pol
 
 The agent was able to solve the environment, achieving an average score of +30 over 100 consecutive episodes. The training progress took ca. 300 episodes.
 
-The agent's performance fluctuated initially but showed improvement over time as it learned to keep the end-effector in the target location.
-
 The trained agent can be visualized by running the `Continuous_Control_test.ipynb` notebook.
 
 ## Conclusion
