@@ -32,13 +32,38 @@ This report describes the implementation and results of a Deep Deterministic Pol
 
 ### Results
 
-The agent was able to solve the environment, achieving an average score of +30 over 100 consecutive episodes. The training progress took ca. 300 episodes.
+The agent was able to solve the environment, achieving an average score of +30 over 100 consecutive episodes. 
+
+Episode 100	Average Score: 2.65
+Episode 200	Average Score: 8.43
+Episode 300	Average Score: 13.62
+Episode 400	Average Score: 18.15
+Episode 500	Average Score: 19.25
+Episode 600	Average Score: 26.78
+Episode 662	Average Score: 30.03
+Environment solved in 562 episodes!	Average Score: 30.03
+
+![alt text](cont_control_output.png)
 
 The trained agent can be visualized by running the `Continuous_Control_test.ipynb` notebook.
 
 ## Conclusion
 
 This project successfully demonstrated the application of DDPG to a continuous control task. With careful tuning of hyperparameters and network architecture, the agent was able to learn an effective policy for keeping the robotic arm in the target location.
+
+## Future Ideas
+
+### 1. **Fine-Tuning Hyperparameters**
+   - Implementing a learning rate scheduler that adjusts the learning rate dynamically based on the agent's performance
+
+### 2. **Prioritized Experience Replay**
+   - Implementing a prioritized experience replay buffer where more important experiences (based on their TD error) are sampled more frequently. This can help the agent learn more effectively from critical experiences.
+
+### 3. **Implementing Dual Critic Networks (TD3)**
+   - Incorporating ideas from Twin Delayed Deep Deterministic Policy Gradient (TD3), such as using two critic networks to address the overestimation bias in the Q-value predictions.
+
+### 4. **Adjusting Noise Over Time**
+   - Implementing a noise decay strategy where the exploration noise decreases over time, allowing the agent to focus more on exploitation as it becomes more confident in its policy.
 
 ## References
 
