@@ -13,6 +13,14 @@ This repository contains an implementation of the Deep Deterministic Policy Grad
 The goal of this project is to train an agent to control a double-jointed arm to reach a target location. The environment is provided by Unity's Reacher environment, where the agent receives a reward for keeping the end-effector of the arm in the target location for as long as possible.
 
 
+### Environment Details
+
+- **State Space**: 33-dimensional vector representing the position, rotation, velocity, and angular velocities of the arm.
+- **Action Space**: 4-dimensional vector representing the torques applied to two joints. Each value in the action vector is continuous and bounded between [-1, 1].
+- **Reward**: +0.1 for each time step the agent's hand is in the goal location.
+- **Success criteria**: Achieve an average score of +30 over 100 consecutive episodes.
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -103,4 +111,4 @@ To test the trained agent:
 
 ## Results
 
-The agent successfully solved the environment, achieving an average score of over 30 within ca. 300 episodes. See `REPORT.md` for a detailed analysis.
+The agent successfully solved the environment, achieving an average score of over 30 within ca. 560 episodes. See `REPORT.md` for a detailed analysis.
