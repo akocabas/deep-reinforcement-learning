@@ -34,13 +34,6 @@ This report describes the implementation and results of a Deep Deterministic Pol
 
 The agent was able to solve the environment, achieving an average score of +30 over 100 consecutive episodes. 
 
-Episode 100	Average Score: 2.65
-Episode 200	Average Score: 8.43
-Episode 300	Average Score: 13.62
-Episode 400	Average Score: 18.15
-Episode 500	Average Score: 19.25
-Episode 600	Average Score: 26.78
-Episode 662	Average Score: 30.03
 Environment solved in 562 episodes!	Average Score: 30.03
 
 ![alt text](cont_control_output.png)
