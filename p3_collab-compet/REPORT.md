@@ -43,13 +43,13 @@ Training was conducted over ca. 3500 episodes. During training, the agents' netw
 
 The agents successfully achieved an average score of 0.5 in ca. 3500 episodes, meeting the project’s success criteria. 
 
-The trained agents can be visualized by running the Tennis_test.ipynb notebook.
+The trained agents can be visualized by running the `Tennis_test.ipynb` notebook. 
 
 
 ## Conclusion
 
 The project demonstrated the effectiveness of the MADDPG algorithm in training agents in a multi-agent environment.
- 
+
 ## References
 
 - Lowe, R., et al. "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments." Advances in Neural Information Processing Systems. 2017.

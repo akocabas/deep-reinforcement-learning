@@ -58,7 +58,7 @@ Episode 5527	Average Score: 16.90
 
 ![alt text](image.png)
 
-The trained agent can be visualized by running the Navigation_test.ipynb notebook.
+The trained agent can be visualized by running the `Navigation_test.ipynb` notebook.
 
 
 ### Conclusion

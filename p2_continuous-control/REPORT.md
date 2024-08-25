@@ -36,7 +36,7 @@ The agent was able to solve the environment, achieving an average score of +30 o
 
 The agent's performance fluctuated initially but showed improvement over time as it learned to keep the end-effector in the target location.
 
-The trained agent can be visualized by running the Continuous_Control_test.ipynb notebook.
+The trained agent can be visualized by running the `Continuous_Control_test.ipynb` notebook.
 
 ## Conclusion
 
