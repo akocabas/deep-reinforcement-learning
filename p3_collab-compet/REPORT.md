@@ -43,6 +43,8 @@ Training was conducted over ca. 3500 episodes. During training, the agents' netw
 
 The agents successfully achieved an average score of 0.5 in ca. 3500 episodes, meeting the project’s success criteria. 
 
+![alt text](tennis_output2.png)
+
 The trained agents can be visualized by running the `Tennis_test.ipynb` notebook. 
 
 
